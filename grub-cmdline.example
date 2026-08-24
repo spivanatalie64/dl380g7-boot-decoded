@@ -1,0 +1,3 @@
+# GRUB: tell the kernel up front the ERST table is garbage,
+# instead of failing the probe at every boot.
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet erst_disable"
